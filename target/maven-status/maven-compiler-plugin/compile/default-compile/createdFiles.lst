@@ -1,0 +1,8 @@
+timestamps\dao\StatisticsDAO.class
+timestamps\kafkaintegration\KafkaConfiguration.class
+timestamps\dao\impl\StatisticsDAOImpl.class
+timestamps\models\Statistics.class
+timestamps\task\ConsumerTask.class
+timestamps\controllers\StatisticsController.class
+timestamps\kafkaintegration\Consumer.class
+timestamps\task\Loader.class
