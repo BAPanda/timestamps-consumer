@@ -43,7 +43,7 @@ public class StatisticsDAOImpl implements StatisticsDAO {
 				.consistency(ConsistencyLevel.ALL)
 				.build();
 		
-        Point point = Point.measurement("entStat").fields(tags).time(System.currentTimeMillis(), TimeUnit.MILLISECONDS).build(); 
+        Point point = Point.measurement(stat.getEntityID().toString()).fields(tags).time(System.currentTimeMillis(), TimeUnit.MILLISECONDS).build(); 
         
         batchPoint.point(point);
         
